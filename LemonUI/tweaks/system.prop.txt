@@ -1,2 +1,11 @@
 # Enable 64-bit dex2oat for better dexopt time
 dalvik.vm.dex2oat64.enabled=true
+
+# SMLK from a08 for better ram management
+ro.slmk.dha_2ndprop_thMB=4096
+ro.slmk.dha_cached_min=4
+ro.slmk.freelimit_val=11
+ro.slmk.v_bonusEFK=61440
+ro.slmk.psi_critical=130
+ro.slmk.swap_free_low_percentage=73
+ro.slmk.2nd.swap_free_low_percentage=35
