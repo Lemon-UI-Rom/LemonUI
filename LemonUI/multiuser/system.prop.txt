@@ -1,0 +1,2 @@
+fw.max_users=5
+fw.show_multiuserui=1
