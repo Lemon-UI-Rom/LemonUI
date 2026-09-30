@@ -1,1 +1,50 @@
 SET_PROP "system" "media.extractor.sec.pcm-32bit" --delete
+
+DELETE_FROM_WORK_DIR "system" "system/etc/init"
+ADD_TO_WORK_DIR "STOCK" "system" "system/etc/init"
+
+DELETE_FROM_WORK_DIR "system" "system/etc/vintf"
+ADD_TO_WORK_DIR "STOCK" "system" "system/etc/vintf"
+
+ADD_TO_WORK_DIR "STOCK" "system" "system/etc/public.libraries-mtk.txt"
+ADD_TO_WORK_DIR "STOCK" "system" "system/etc/public.libraries-trustonic.txt"
+ADD_TO_WORK_DIR "STOCK" "system" "system/etc/public.libraries-camera.samsung.txt"
+ADD_TO_WORK_DIR "STOCK" "system" "system/etc/public.libraries-arcsoft.txt"
+
+ADD_TO_WORK_DIR "STOCK" "system" "system/etc/permissions/verizon_net_sip_library.xml"
+
+DELETE_FROM_WORK_DIR "system" "system/bin"
+DELETE_FROM_WORK_DIR "system" "system/lib64"
+DELETE_FROM_WORK_DIR "system" "system/lib"
+ADD_TO_WORK_DIR "STOCK" "system" "system/bin"
+ADD_TO_WORK_DIR "STOCK" "system" "system/lib64"
+ADD_TO_WORK_DIR "STOCK" "system" "system/lib"
+
+DELETE_FROM_WORK_DIR "system" "system/lib64/libtensorflowLite.myfilter.camera.samsung.so"
+DELETE_FROM_WORK_DIR "system" "system/lib64/libtensorflowlite_inference_api.myfilter.camera.samsung.so"
+DELETE_FROM_WORK_DIR "system" "system/lib64/libdualcam_portraitlighting_gallery_360_lite.so"
+
+ADD_TO_WORK_DIR "STOCK" "system" "system/framework/verizon.net.sip.jar"
+ADD_TO_WORK_DIR "STOCK" "system" "system/framework/msync-lib.jar"
+
+DELETE_FROM_WORK_DIR "system_ext" "bin"
+DELETE_FROM_WORK_DIR "system_ext" "lib64"
+DELETE_FROM_WORK_DIR "system_ext" "lib"
+ADD_TO_WORK_DIR "STOCK" "system_ext" "bin"
+ADD_TO_WORK_DIR "STOCK" "system_ext" "lib64"
+ADD_TO_WORK_DIR "STOCK" "system_ext" "lib"
+
+ADD_TO_WORK_DIR "STOCK" "system_ext" "usp"
+
+ADD_TO_WORK_DIR "STOCK" "system_ext" "framework/mediatek-common.jar"
+ADD_TO_WORK_DIR "STOCK" "system_ext" "framework/mediatek-ims-base.jar"
+ADD_TO_WORK_DIR "STOCK" "system_ext" "framework/mediatek-framework.jar"
+ADD_TO_WORK_DIR "STOCK" "system_ext" "framework/CustomPropInterface.jar"
+ADD_TO_WORK_DIR "STOCK" "system_ext" "framework/DataChannelApi.jar"
+ADD_TO_WORK_DIR "STOCK" "system_ext" "framework/duraspeed.jar"
+ADD_TO_WORK_DIR "STOCK" "system_ext" "framework/log-handler.jar"
+
+DELETE_FROM_WORK_DIR "system_ext" "etc/init"
+DELETE_FROM_WORK_DIR "system_ext" "etc/selinux"
+ADD_TO_WORK_DIR "STOCK" "system_ext" "etc/selinux"
+ADD_TO_WORK_DIR "STOCK" "system_ext" "etc/init"
