@@ -1,0 +1,7 @@
+SET_PROP "system" "ro.midas.device" "codename"
+
+examples of codename :
+
+Galaxy A15 = a15
+Galaxy A15 5G = a15x
+Galaxy A34 5G = a34x

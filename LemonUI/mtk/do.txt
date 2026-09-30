@@ -1,3 +1,1 @@
 SET_PROP "system" "media.extractor.sec.pcm-32bit" --delete
-
-DELETE_FROM_WORK_DIR "system" "system/etc/public.libraries-edensdk.samsung.txt"

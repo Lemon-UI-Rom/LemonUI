@@ -1,0 +1,1 @@
+ro.factory.model=SM-S711B
