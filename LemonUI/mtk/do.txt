@@ -1,17 +1,6 @@
 SET_PROP "system" "media.extractor.sec.pcm-32bit" --delete
 
-ADD_TO_WORK_DIR "SM-A346B/EUX" "system" "system/etc/public.libraries-mtk.txt"
-ADD_TO_WORK_DIR "SM-A346B/EUX" "system" "system/etc/public.libraries-trustonic.txt"
-ADD_TO_WORK_DIR "SM-A346B/EUX" "system" "system/etc/public.libraries-camera.samsung.txt"
-ADD_TO_WORK_DIR "SM-A346B/EUX" "system" "system/etc/public.libraries-arcsoft.txt"
-
-ADD_TO_WORK_DIR "SM-A346B/EUX" "system" "system/etc/permissions/verizon_net_sip_library.xml"
-
-ADD_TO_WORK_DIR "SM-A346B/EUX" "system" "system/framework/verizon.net.sip.jar"
-ADD_TO_WORK_DIR "SM-A346B/EUX" "system" "system/framework/msync-lib.jar"
-
 ADD_TO_WORK_DIR "SM-A346B/EUX" "system_ext" "usp"
-
 ADD_TO_WORK_DIR "SM-A346B/EUX" "system_ext" "framework/mediatek-common.jar"
 ADD_TO_WORK_DIR "SM-A346B/EUX" "system_ext" "framework/mediatek-ims-base.jar"
 ADD_TO_WORK_DIR "SM-A346B/EUX" "system_ext" "framework/mediatek-framework.jar"

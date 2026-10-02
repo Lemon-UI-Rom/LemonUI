@@ -1,5 +1,3 @@
 system:
-	app:
-		WifiRROverlayAppLls
 	etc:
 		public.libraries-edensdk.samsung.txt
