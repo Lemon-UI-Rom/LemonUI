@@ -1,1 +1,1 @@
-ro.product.device=m2q
+ro.product.device=m2s

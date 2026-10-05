@@ -1,5 +1,5 @@
 SET_PROP "system" "media.extractor.sec.pcm-32bit" --delete
 
 ADD_TO_WORK_DIR "SM-A346B/EUX" "system_ext" "usp"
-ADD_TO_WORK_DIR "SM-A346B/EUX" "system_ext" "framework/CustomPropInterface.jar"
-ADD_TO_WORK_DIR "SM-A346B/EUX" "system_ext" "framework/duraspeed.jar"
+ADD_TO_WORK_DIR "SM-A346B/EUX" "system" "system/framework/verizon.net.sip.jar"
+ADD_TO_WORK_DIR "SM-A346B/EUX" "system" "system/framework/msync-lib.jar"
