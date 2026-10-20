@@ -1,1 +1,3 @@
 dalvik.vm.dex2oat64.enabled=true
+ro.surface_flinger.has_wide_color_display=true
+ro.surface_flinger.use_color_management=true

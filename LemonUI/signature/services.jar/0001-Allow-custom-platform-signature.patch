@@ -17,7 +17,7 @@ index 8bd844f2..ae19591f 100644
  
      iput-object p1, p0, Lcom/android/server/pm/InstallPackageHelper;->mInstallingPackages:Ljava/util/Set;
  
-+    const-string p1, "CONFIG_CUSTOM_PLATFORM_SIGNATURE"
++    const-string p1, "SIGN_KEY"
 +
 +    filled-new-array {p1}, [Ljava/lang/String;
 +
