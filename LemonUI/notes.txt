@@ -1,5 +1,10 @@
-BASE : SM-M366K Exynos+MTK / S911B Snapdragon
-CSC : KTC
+BASE :
+	Exynos 32/64 : M366K KTC
+	Snapdragon 32/64 : S911B EUX
+	MediaTEK 32/64 : M366K KTC
+	Exynos 64only : S921B EUX
+	Snapdragon 64only : S931B EUX
+
 SPOOF : SM-S947B / m2sxxx (Latest S + of oneui)
 ANIMATIONS : Highend
 WALLPAPER : S741B (Latest S FE of oneui)
