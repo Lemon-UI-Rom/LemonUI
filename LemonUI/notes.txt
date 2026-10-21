@@ -1,5 +1,5 @@
-BASE : SM-S711B Exynos+MTK / S911B Snapdragon
-CSC : EUX
+BASE : SM-M366K Exynos+MTK / S911B Snapdragon
+CSC : KTC
 SPOOF : SM-S947B / m2sxxx (Latest S + of oneui)
 ANIMATIONS : Highend
 WALLPAPER : S741B (Latest S FE of oneui)
