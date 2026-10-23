@@ -1,7 +1,7 @@
 BASE :
-	Exynos 32/64 : M366K KTC
+	Exynos 32/64 : A266B XXV
 	Snapdragon 32/64 : S911B EUX
-	MediaTEK 32/64 : M366K KTC
+	MediaTEK 32/64 : A245F EUX
 	Exynos 64only : S921B EUX
 	Snapdragon 64only : S931B EUX
 
